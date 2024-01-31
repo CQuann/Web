@@ -1,0 +1,30 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header_cont {
+    flex-grow: 0.1;
+}
+
+.content_cont {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.address_cont {
+    height: 50px;
+    text-align: center;
+}
+
+/* .list {
+    width: 700px;
+} */
+
+.image {
+    width: 200px;
+}

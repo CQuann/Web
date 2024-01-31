@@ -1,0 +1,43 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header_cont {
+    flex-grow: 0.1;
+}
+
+.content_cont {
+    margin: 0 200px 0 100px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.text_cont {
+    width: 40vw;
+}
+
+.address_cont {
+    height: 50px;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+}
+
+
+.list {
+    font-size: 20px;
+}
+
+.table {
+    width: 700px;
+}
+
+.image {
+    width: 20vw;
+}
